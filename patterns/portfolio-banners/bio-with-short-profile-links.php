@@ -15,8 +15,8 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"left","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
-<h2 class="wp-block-heading has-text-align-left has-link-color"><?php esc_html_e('Name', 'red-dragon-portfolio');?></h2>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"left"} -->
+<h2 class="wp-block-heading has-text-align-left"><?php esc_html_e('Name', 'red-dragon-portfolio');?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
