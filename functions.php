@@ -138,7 +138,7 @@ if ( ! function_exists( 'red_dragon_portfolio_pattern_categories' ) ) :
 		);
 
 		register_block_pattern_category(
-			'red_dragon_portfolio_headers',
+			'Headers',
 			array(
 				'label'       => __( 'Headers', 'red-dragon-portfolio' ),
 				'description' => __( 'A collection of header patterns.', 'red-dragon-portfolio' ),
