@@ -259,7 +259,27 @@
 			},
 			"core/columns": {
 				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--50)"
+					"blockGap": "var(--wp--preset--spacing--50)",
+					"margin": {
+						"top": "0",
+						"bottom": "0"
+					}
+				}
+			},
+			"core/column": {
+				"spacing": {
+					"margin": {
+						"top": "0",
+						"bottom": "0"
+					}
+				}
+			},
+			"core/group": {
+				"spacing": {
+					"margin": {
+						"top": "0",
+						"bottom": "0"
+					}
 				}
 			},
 			"core/comment-author-name": {
