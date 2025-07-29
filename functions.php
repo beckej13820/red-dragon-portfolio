@@ -144,6 +144,22 @@ if ( ! function_exists( 'red_dragon_portfolio_pattern_categories' ) ) :
 				'description' => __( 'A collection of header patterns.', 'red-dragon-portfolio' ),
 			)
 		);
+
+		register_block_pattern_category(
+			'Recent Project Showcase',
+			array(
+				'label'       => __( 'Recent Project Showcase', 'red-dragon-portfolio' ),
+				'description' => __( 'A collection of recent project showcase patterns.', 'red-dragon-portfolio' ),
+			)
+		);
+
+		register_block_pattern_category(
+			'Text Styles',
+			array(
+				'label'       => __( 'Text Styles', 'red-dragon-portfolio' ),
+				'description' => __( 'A collection of text style patterns.', 'red-dragon-portfolio' ),
+			)
+		);
 	}
 endif;
 add_action( 'init', 'red_dragon_portfolio_pattern_categories' );
