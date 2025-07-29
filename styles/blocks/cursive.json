@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"title": "Cursive",
+	"slug": "cursive",
+	"blockTypes": ["core/heading", "core/site-title"],
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--mrs-saint-delafield)",
+			"fontWeight": "400",
+			"fontStyle": "normal",
+			"textTransform": "none"
+		}
+	}
+} 
