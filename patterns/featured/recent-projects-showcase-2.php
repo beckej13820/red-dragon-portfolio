@@ -2,7 +2,7 @@
 /**
  * Title: Recent Projects Showcase 2
  * Slug: red-dragon-portfolio/recent-projects-showcase-2
- * Categories: featured
+ * Categories: 'recent projects showcase', featured
  */
 ?>
 <!-- wp:group {"align":"full","className":"is-style-section-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
