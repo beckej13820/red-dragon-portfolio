@@ -146,7 +146,7 @@ if ( ! function_exists( 'red_dragon_portfolio_pattern_categories' ) ) :
 		);
 
 		register_block_pattern_category(
-			'Recent Project Showcase',
+			'recent-project-showcase',
 			array(
 				'label'       => __( 'Recent Project Showcase', 'red-dragon-portfolio' ),
 				'description' => __( 'A collection of recent project showcase patterns.', 'red-dragon-portfolio' ),

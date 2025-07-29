@@ -2,10 +2,10 @@
 /**
  * Title: Recent Projects Showcase 2
  * Slug: red-dragon-portfolio/recent-projects-showcase-2
- * Categories: Recent Projects Showcase
+ * Categories: featured
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Recent Projects Showcase 2"},"align":"full","className":"is-style-section-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","className":"is-style-section-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-section-1" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading {"textAlign":"center"} -->
 <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e('Recent Projects Showcase', 'red-dragon-portfolio');?></h2>
 <!-- /wp:heading -->
