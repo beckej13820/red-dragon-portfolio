@@ -2,7 +2,7 @@
 /**
  * Title: Heading and paragraph with image on the right
  * Slug: red-dragon-portfolio/heading-and-paragraph-with-image
- * Categories: about
+ * Categories: text
  * Description: A two-column section with a heading and paragraph on the left, and an image on the right.
  *
  * @package WordPress

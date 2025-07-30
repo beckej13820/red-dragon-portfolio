@@ -2,10 +2,10 @@
 /**
  * Title: Heading and text in two columns
  * Slug: red-dragon-portfolio/heading-and-text-in-two-columns
- * Categories: Text Styles
+ * Categories: text
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Heading and text in two columns"},"align":"full","className":"is-style-default","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","className":"is-style-default","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-default" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"align":"wide","style":{"typography":{"fontSize":"rem"}}} -->
 <h2 class="wp-block-heading alignwide" style="font-size:rem"><?php esc_html_e('Heading', 'red-dragon-portfolio');?></h2>

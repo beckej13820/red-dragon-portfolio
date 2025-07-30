@@ -4,6 +4,7 @@
  * Slug: red-dragon-portfolio/binding-format
  * Categories: red_dragon_portfolio_post-format
  * Description: Prints the name of the post format with the help of the Block Bindings API.
+ * Inserter: false
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

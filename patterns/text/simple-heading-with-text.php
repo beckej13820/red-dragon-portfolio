@@ -2,10 +2,10 @@
 /**
  * Title: Simple heading with text
  * Slug: red-dragon-portfolio/simple-heading-with-text
- * Categories: Text Styles
+ * Categories: text
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Simple heading with text"},"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-section-4" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:heading -->
 <h2 class="wp-block-heading"><?php esc_html_e('Heading', 'red-dragon-portfolio');?></h2>
 <!-- /wp:heading -->
