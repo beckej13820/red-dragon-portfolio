@@ -3,7 +3,7 @@
  * Title: List with 3 Headings
  * Slug: red-dragon-portfolio/list-with-3-headings
  * blockType: core/list
- * Categories: lists
+ * Categories: list
  */
 ?>
 <!-- wp:group {"metadata":{"name":"List with 3 Headings"},"align":"full","className":"is-style-default","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
