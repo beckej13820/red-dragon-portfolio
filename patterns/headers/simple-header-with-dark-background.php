@@ -3,7 +3,7 @@
  * Title: Simple header with dark background
  * Slug: red-dragon-portfolio/simple-header-with-dark-background
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"core/simple-header-with-dark-background","name":"Simple header with dark background"},"align":"full","className":"has-background-color is-style-section-5","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->

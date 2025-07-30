@@ -3,7 +3,7 @@
  * Title: Fullwidth header with large font size
  * Slug: red-dragon-portfolio/fullwidth-header-with-large-font-size
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"core/fullwidth-header-with-large-font-size","name":"Fullwidth header with large font size"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","layout":{"type":"flex","justifyContent":"space-between"}} -->

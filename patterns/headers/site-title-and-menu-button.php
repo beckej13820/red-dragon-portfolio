@@ -3,7 +3,7 @@
  * Title: Site Title and menu button
  * Slug: red-dragon-portfolio/site-title-and-menu-button
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"core/fullwidth-site-title-and-menu-button","name":"Fullwidth site title and menu button"},"align":"full","className":"is-style-section-2","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"space-between"}} -->

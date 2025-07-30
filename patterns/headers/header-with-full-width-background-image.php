@@ -3,7 +3,7 @@
  * Title: Header with full-width background image
  * Slug: red-dragon-portfolio/header-with-full-width-background-image
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"core/header-inside-full-width-background-image","name":"Header with full-width background image"},"align":"full","layout":{"type":"constrained"}} -->

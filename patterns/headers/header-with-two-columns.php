@@ -3,7 +3,7 @@
  * Title: Header with two columns
  * Slug: red-dragon-portfolio/header-with-two-columns
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"red-dragon-portfolio/header","name":"Header with two columns"},"align":"full","layout":{"type":"default"}} -->

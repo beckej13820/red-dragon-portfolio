@@ -3,7 +3,7 @@
  * Title: Centered site header
  * Slug: red-dragon-portfolio/centered-site-header
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"red-dragon-portfolio/header-centered","name":"Centered site header"},"align":"full","className":"is-style-default","layout":{"type":"constrained"}} -->

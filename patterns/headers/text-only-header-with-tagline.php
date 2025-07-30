@@ -3,7 +3,7 @@
  * Title: Text-only header with tagline
  * Slug: red-dragon-portfolio/text-only-header-with-tagline
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"core/text-only-header-with-tagline","name":"Text-only header with tagline"},"align":"full","className":"is-style-section-2","style":{"spacing":{"padding":{"top":"var:preset|spacing|30","right":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->

@@ -3,7 +3,7 @@
  * Title: Centered header with logo
  * Slug: red-dragon-portfolio/centered-header-with-logo
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"core/centered-header-with-logo","name":"Centered header with logo"},"align":"full","className":"is-style-section-3","style":{"spacing":{"padding":{"top":"var:preset|spacing|40","right":"var:preset|spacing|30","bottom":"var:preset|spacing|40","left":"var:preset|spacing|30"}}},"layout":{"type":"constrained"}} -->

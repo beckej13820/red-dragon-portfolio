@@ -3,7 +3,7 @@
  * Title: Header with large title
  * Slug: red-dragon-portfolio/header-with-large-title
  * Block Types: core/template-part/header
- * Categories: Headers
+ * Categories: header
  */
 ?>
 <!-- wp:group {"metadata":{"categories":["Headers"],"patternName":"red-dragon-portfolio/header-large-title","name":"Header with large title"},"align":"full","className":"is-style-default","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
