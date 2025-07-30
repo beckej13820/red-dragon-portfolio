@@ -13,12 +13,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Red Dragon Portfolio is a customized version of the WordPress Core Twenty Twenty Five theme. This theme was customized to facilitate the creation of portfolios with presets, styles, and patterns that meet the needs of Oneonta students.
 
 
-== Changelog ==
-
-= 1.0.0 =
-* Initial release
-
-
 == Copyright ==
 
 Red Dragon Portfolio WordPress Theme, (C) 2025 Ed Beck, Jessie Reed, & Ava Lebid
