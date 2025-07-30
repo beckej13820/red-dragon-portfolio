@@ -2,7 +2,6 @@
 /**
  * Title: Post navigation
  * Slug: red-dragon-portfolio/post-navigation
- * Categories: text
  * Description: Next and previous post links.
  * Block Types: core/post-navigation-link
  *
