@@ -10,7 +10,7 @@
 <h2 class="wp-block-heading has-text-align-center is-style-text-display" style="font-size:5rem"><?php esc_html_e('My Work', 'red-dragon-portfolio');?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:columns {"align":"wide"} -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"style":{"border":{"radius":"20px","width":"4px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"borderColor":"accent-5"} -->
 <div class="wp-block-column has-border-color has-accent-5-border-color" style="border-width:4px;border-radius:20px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"x-large"} -->
 <h3 class="wp-block-heading has-x-large-font-size"><?php esc_html_e('In sit amet nibh luctus', 'red-dragon-portfolio');?></h3>
