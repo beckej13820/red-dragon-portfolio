@@ -139,14 +139,6 @@ if ( ! function_exists( 'red_dragon_portfolio_pattern_categories' ) ) :
 		);
 
 		register_block_pattern_category(
-			'Text Styles',
-			array(
-				'label'       => __( 'Text Styles', 'red-dragon-portfolio' ),
-				'description' => __( 'A collection of text style patterns.', 'red-dragon-portfolio' ),
-			)
-		);
-
-		register_block_pattern_category(
 			'red_dragon_portfolio/list',
 			array(
 				'label'       => __( 'Lists', 'red-dragon-portfolio' ),
