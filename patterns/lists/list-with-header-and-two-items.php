@@ -2,7 +2,7 @@
 /**
  * Title: List with Header and two items
  * Slug: red-dragon-portfolio/list-with-header-and-two-items
- * Categories: list
+ * Categories: red_dragon_portfolio/list
  */
 ?>
 <!-- wp:group {"metadata":{"name":"List with Header and two items"},"align":"full","className":"is-style-section-5","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
