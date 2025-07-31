@@ -152,6 +152,7 @@ if ( ! function_exists( 'red_dragon_portfolio_pattern_categories' ) ) :
 				'label'       => __( 'Lists', 'red-dragon-portfolio' ),
 				'description' => __( 'A collection of list text style patterns.', 'red-dragon-portfolio' ),
 			)
+		);
 	}
 endif;
 add_action( 'init', 'red_dragon_portfolio_pattern_categories' );
