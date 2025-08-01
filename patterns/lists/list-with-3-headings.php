@@ -2,6 +2,7 @@
 /**
  * Title: List with 3 Headings
  * Slug: red-dragon-portfolio/list-with-3-headings
+ * Block Types: core/list
  * Categories: red_dragon_portfolio/list, text
  */
 ?>
