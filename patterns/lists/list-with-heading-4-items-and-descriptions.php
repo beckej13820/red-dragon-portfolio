@@ -2,7 +2,6 @@
 /**
  * Title: List with Heading, 4 items and descriptions
  * Slug: red-dragon-portfolio/list-with-heading-4-items-and-descriptions
- * Block Types: core/list
  * Categories: red_dragon_portfolio/list, text
  */
 ?>

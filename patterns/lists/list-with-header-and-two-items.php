@@ -2,7 +2,6 @@
 /**
  * Title: List with Header and two items
  * Slug: red-dragon-portfolio/list-with-header-and-two-items
- * Block Types: core/list
  * Categories: red_dragon_portfolio/list, text
  */
 ?>
