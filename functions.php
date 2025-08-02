@@ -131,7 +131,7 @@ if ( ! function_exists( 'red_dragon_portfolio_pattern_categories' ) ) :
 		
 
 		register_block_pattern_category(
-			'red_dragon_portfolio/recent-project-showcase',
+			'red_dragon_portfolio_recent-project-showcase',
 			array(
 				'label'       => __( 'Recent Project Showcase', 'red-dragon-portfolio' ),
 				'description' => __( 'A collection of recent project showcase patterns.', 'red-dragon-portfolio' ),
@@ -139,7 +139,7 @@ if ( ! function_exists( 'red_dragon_portfolio_pattern_categories' ) ) :
 		);
 
 		register_block_pattern_category(
-			'red_dragon_portfolio/list',
+			'red_dragon_portfolio_list',
 			array(
 				'label'       => __( 'Lists', 'red-dragon-portfolio' ),
 				'description' => __( 'A collection of list text style patterns.', 'red-dragon-portfolio' ),

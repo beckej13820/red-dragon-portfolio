@@ -2,7 +2,7 @@
 /**
  * Title: List with Heading, 4 items and descriptions
  * Slug: red-dragon-portfolio/list-with-heading-4-items-and-descriptions
- * Categories: red_dragon_portfolio/list, text
+ * Categories: red_dragon_portfolio_list, text
  */
 ?>
 <!-- wp:group {"metadata":{"name":"List with Heading, 4 items and descriptions"},"align":"full","className":"is-style-section-1","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
