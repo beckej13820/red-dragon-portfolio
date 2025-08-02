@@ -9,7 +9,7 @@
 		}
 	],
 	"settings": {
-		"appearanceTools": false,
+		"appearanceTools": true,
 		"color": {
 			"defaultDuotone": false,
 			"defaultGradients": false,
