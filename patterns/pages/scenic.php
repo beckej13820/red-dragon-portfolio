@@ -36,8 +36,8 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"border":{"radius":"10px"}},"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"14rem"}} -->
-<div class="wp-block-group" style="border-radius:10px"><!-- wp:group {"style":{"border":{"radius":"10px","width":"3px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"layout":{"columnSpan":1,"rowSpan":1}},"borderColor":"accent-5","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-border-color has-accent-5-border-color" style="border-width:3px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<div class="wp-block-group" style="border-radius:10px"><!-- wp:group {"style":{"border":{"radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
 <h3 class="wp-block-heading has-large-font-size">What I do</h3>
 <!-- /wp:heading -->
 
@@ -46,8 +46,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"border":{"radius":"10px","width":"3px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"borderColor":"accent-5","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-border-color has-accent-5-border-color" style="border-width:3px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<!-- wp:group {"style":{"border":{"radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
 <h3 class="wp-block-heading has-large-font-size">Vehicula orci nec</h3>
 <!-- /wp:heading -->
 
@@ -56,8 +56,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"border":{"radius":"10px","width":"3px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"borderColor":"accent-5","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-border-color has-accent-5-border-color" style="border-width:3px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<!-- wp:group {"style":{"border":{"radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
 <h3 class="wp-block-heading has-large-font-size">Ornare nibh et</h3>
 <!-- /wp:heading -->
 
@@ -66,8 +66,8 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"border":{"radius":"10px","width":"3px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"borderColor":"accent-5","layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group has-border-color has-accent-5-border-color" style="border-width:3px;border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
+<!-- wp:group {"style":{"border":{"radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}},"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="border-radius:10px;padding-top:var(--wp--preset--spacing--30);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--30)"><!-- wp:heading {"level":3,"fontSize":"large"} -->
 <h3 class="wp-block-heading has-large-font-size">Vestibulum vehicula ultrices augue</h3>
 <!-- /wp:heading -->
 
