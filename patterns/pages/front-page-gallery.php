@@ -13,4 +13,4 @@
 
 <!-- wp:pattern {"slug":"red-dragon-portfolio/large-banner-image-and-text"} /-->
 <!-- wp:pattern {"slug":"red-dragon-portfolio/gallery-with-instagram-inspired-squares"} /-->
-<!-- wp:pattern {"slug":"red-dragon-portfolio/simple-heading-and-text"} /-->
+<!-- wp:pattern {"slug":"red-dragon-portfolio/simple-heading-with-text"} /-->
