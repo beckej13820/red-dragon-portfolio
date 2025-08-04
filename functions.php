@@ -253,7 +253,18 @@ if ( ! function_exists( 'red_dragon_portfolio_disable_theme_blocks' ) ) :
 				'core/query-pagination-numbers',
 				'core/query-pagination-previous',
 				'core/query-title',
-				'core/query-no-results'
+				'core/query-no-results',
+				'core/archives',
+				'core/calendar',
+				'core/categories',
+				'core/html',
+				'core/latest-comments',
+				'core/latest-posts',
+				'core/page-list',
+				'core/rss',
+				'core/search',
+				'core/shortcode',
+				'core/tag-cloud'
 			);
 			
 			// Filter out theme blocks from available blocks
