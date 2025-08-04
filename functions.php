@@ -170,24 +170,6 @@ if ( ! function_exists( 'red_dragon_portfolio_register_block_bindings' ) ) :
 endif;
 add_action( 'init', 'red_dragon_portfolio_register_block_bindings' );
 
-// Disable Gutenberg blocks in post editor, but leave all blocks in the site editor.
-
-function student_theme_editor_assets() {
-    // Only enqueue in the post editor, not the site editor
-    $current_screen = get_current_screen();
-    if ( $current_screen && $current_screen->is_block_editor && ! $current_screen->is_site_editor ) {
-        wp_enqueue_script(
-            'student-disable-theme-blocks',
-            get_template_directory_uri() . '/assets/js/disable-theme-blocks.js',
-            [ 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ],
-            filemtime( get_template_directory() . '/assets/js/disable-theme-blocks.js' ),
-            true
-        );
-    }
-}
-add_action( 'enqueue_block_editor_assets', 'student_theme_editor_assets' );
-
-
 // Registers block binding callback function for the post format name.
 if ( ! function_exists( 'red_dragon_portfolio_format_binding' ) ) :
 	/**
@@ -205,3 +187,64 @@ if ( ! function_exists( 'red_dragon_portfolio_format_binding' ) ) :
 		}
 	}
 endif;
+
+// Disable theme blocks in post editor but allow them in site editor
+if ( ! function_exists( 'red_dragon_portfolio_disable_theme_blocks' ) ) :
+	/**
+	 * Disables theme blocks in the post editor while keeping them available in the site editor.
+	 *
+	 * @since Red Dragon Portfolio 1.0
+	 *
+	 * @param bool|array $allowed_block_types Array of allowed block type slugs, or boolean to enable/disable all.
+	 * @param WP_Block_Editor_Context $block_editor_context The current block editor context.
+	 *
+	 * @return array Array of allowed block types.
+	 */
+	function red_dragon_portfolio_disable_theme_blocks( $allowed_block_types, $block_editor_context ) {
+		// Only apply restrictions in the post editor, not the site editor
+		if ( isset( $block_editor_context->post ) && ! empty( $block_editor_context->post ) ) {
+			// Get all registered blocks
+			$registered_blocks = WP_Block_Type_Registry::get_instance()->get_all_registered();
+			$all_blocks = array_keys( $registered_blocks );
+			
+			// Define theme blocks to exclude from post editor
+			$theme_blocks = array(
+				'core/navigation',
+				'core/site-logo',
+				'core/site-title',
+				'core/site-tagline',
+				'core/query',
+				'core/post-title',
+				'core/post-excerpt',
+				'core/post-featured-image',
+				'core/post-author',
+				'core/post-author-name',
+				'core/post-date',
+				'core/post-modified-date',
+				'core/post-terms',
+				'core/post-categories',
+				'core/post-tags',
+				'core/post-navigation-link',
+				'core/read-more',
+				'core/comments',
+				'core/comment-form',
+				'core/loginout',
+				'core/term-description',
+				'core/archive-title',
+				'core/search-results-title',
+				'core/author-biography',
+				'core/avatar'
+			);
+			
+			// Filter out theme blocks from available blocks
+			$allowed_blocks = array_diff( $all_blocks, $theme_blocks );
+			
+			// Return sequential array (important to avoid JS errors)
+			return array_values( $allowed_blocks );
+		}
+		
+		// Return all blocks for site editor and other contexts
+		return $allowed_block_types;
+	}
+endif;
+add_filter( 'allowed_block_types_all', 'red_dragon_portfolio_disable_theme_blocks', 10, 2 );
