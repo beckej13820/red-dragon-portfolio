@@ -220,6 +220,7 @@ if ( ! function_exists( 'red_dragon_portfolio_disable_theme_blocks' ) ) :
 				'core/post-author',
 				'core/post-author-name',
 				'core/post-author-biography',
+				'core/post-content',
 				'core/post-date',
 				'core/post-modified-date',
 				'core/post-terms',
