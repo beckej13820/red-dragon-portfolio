@@ -170,6 +170,24 @@ if ( ! function_exists( 'red_dragon_portfolio_register_block_bindings' ) ) :
 endif;
 add_action( 'init', 'red_dragon_portfolio_register_block_bindings' );
 
+// Disable Gutenberg blocks in post editor, but leave all blocks in the site editor.
+
+function student_theme_editor_assets() {
+    // Only enqueue in the post editor, not the site editor
+    $current_screen = get_current_screen();
+    if ( $current_screen && $current_screen->is_block_editor && ! $current_screen->is_site_editor ) {
+        wp_enqueue_script(
+            'student-disable-theme-blocks',
+            get_template_directory_uri() . '/assets/js/disable-theme-blocks.js',
+            [ 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ],
+            filemtime( get_template_directory() . '/assets/js/disable-theme-blocks.js' ),
+            true
+        );
+    }
+}
+add_action( 'enqueue_block_editor_assets', 'student_theme_editor_assets' );
+
+
 // Registers block binding callback function for the post format name.
 if ( ! function_exists( 'red_dragon_portfolio_format_binding' ) ) :
 	/**
