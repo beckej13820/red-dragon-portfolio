@@ -246,6 +246,7 @@ if ( ! function_exists( 'red_dragon_portfolio_disable_theme_blocks' ) ) :
 				'core/query-pagination-next',
 				'core/query-pagination-numbers',
 				'core/query-pagination-previous',
+				'core/query-title',
 				'core/read-more',
 				'core/rss',
 				'core/search',
