@@ -226,7 +226,6 @@ if ( ! function_exists( 'red_dragon_portfolio_disable_theme_blocks' ) ) :
 				'core/comments-pagination-numbers',
 				'core/comments-pagination-previous',
 				'core/comments-title',
-				'core/html',
 				'core/latest-comments',
 				'core/latest-posts',
 				'core/loginout',
