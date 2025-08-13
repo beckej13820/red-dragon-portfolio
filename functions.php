@@ -203,6 +203,11 @@ if ( ! function_exists( 'red_dragon_portfolio_disable_theme_blocks' ) ) :
 	function red_dragon_portfolio_disable_theme_blocks( $allowed_block_types, $block_editor_context ) {
 		// Only apply restrictions in the post editor, not the site editor
 		if ( isset( $block_editor_context->post ) && ! empty( $block_editor_context->post ) ) {
+			// Allow all blocks in the Site Editor and Template Editor.
+			$post_type = isset( $block_editor_context->post->post_type ) ? $block_editor_context->post->post_type : '';
+			if ( in_array( $post_type, array( 'wp_template', 'wp_template_part' ), true ) ) {
+				return true;
+			}
 			// Get all registered blocks
 			$registered_blocks = WP_Block_Type_Registry::get_instance()->get_all_registered();
 			$all_blocks = array_keys( $registered_blocks );
