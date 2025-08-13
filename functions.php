@@ -187,3 +187,83 @@ if ( ! function_exists( 'red_dragon_portfolio_format_binding' ) ) :
 		}
 	}
 endif;
+
+// Disable theme blocks in post editor but allow them in site editor
+if ( ! function_exists( 'red_dragon_portfolio_disable_theme_blocks' ) ) :
+	/**
+	 * Disables theme blocks in the post editor while keeping them available in the site editor.
+	 *
+	 * @since Red Dragon Portfolio 1.0
+	 *
+	 * @param bool|array $allowed_block_types Array of allowed block type slugs, or boolean to enable/disable all.
+	 * @param WP_Block_Editor_Context $block_editor_context The current block editor context.
+	 *
+	 * @return array Array of allowed block types.
+	 */
+	function red_dragon_portfolio_disable_theme_blocks( $allowed_block_types, $block_editor_context ) {
+		// Only apply restrictions in the post editor, not the site editor
+		if ( isset( $block_editor_context->post ) && ! empty( $block_editor_context->post ) ) {
+			// Get all registered blocks
+			$registered_blocks = WP_Block_Type_Registry::get_instance()->get_all_registered();
+			$all_blocks = array_keys( $registered_blocks );
+			
+			// Define theme blocks to exclude from post editor (alphabetically sorted)
+			$theme_blocks = array(
+				'core/archive-title',
+				'core/archives',
+				'core/author-biography',
+				'core/calendar',
+				'core/categories',
+				'core/comment-author-name',
+				'core/comment-content',
+				'core/comment-date',
+				'core/comment-edit-link',
+				'core/comment-reply-link',
+				'core/comment-template',
+				'core/comments',
+				'core/comments-pagination',
+				'core/comments-pagination-next',
+				'core/comments-pagination-numbers',
+				'core/comments-pagination-previous',
+				'core/comments-title',
+				'core/html',
+				'core/latest-comments',
+				'core/latest-posts',
+				'core/loginout',
+				'core/navigation',
+				'core/page-list',
+				'core/post-author-biography',
+				'core/post-author-name',
+				'core/post-comments-form',
+				'core/post-modified-date',
+				'core/post-navigation-link',
+				'core/query-no-results',
+				'core/query-pagination',
+				'core/query-pagination-next',
+				'core/query-pagination-numbers',
+				'core/query-pagination-previous',
+				'core/read-more',
+				'core/rss',
+				'core/search',
+				'core/search-results-title',
+				'core/shortcode',
+				'core/site-logo',
+				'core/site-tagline',
+				'core/site-title',
+				'core/tag-cloud',
+				'core/template-part',
+				'core/term-description'
+			);
+			
+			// Filter out theme blocks from available blocks
+			$allowed_blocks = array_diff( $all_blocks, $theme_blocks );
+			
+			// Return sequential array (important to avoid JS errors)
+			return array_values( $allowed_blocks );
+		}
+		
+		// Return all blocks for site editor and other contexts
+		return $allowed_block_types;
+	}
+endif;
+add_filter( 'allowed_block_types_all', 'red_dragon_portfolio_disable_theme_blocks', 10, 2 );
