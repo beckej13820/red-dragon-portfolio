@@ -29,7 +29,7 @@
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"align":"right","fontSize":"medium"} -->
 <p class="has-text-align-right has-medium-font-size"><?php /* Translators: 1. is the start of a 'a' HTML element, 2. is the end of a 'a' HTML element */ 
-echo sprintf( esc_html__( '%1$sMore Projects%2$s', 'red-dragon-portfolio' ), '<a href="' . esc_url( 'http://localhost:8881/posts/' ) . '" data-type="page" data-id="254">', '</a>' ); ?></p>
+echo sprintf( esc_html__( '%1$sMore Projects%2$s', 'red-dragon-portfolio' ), '<a href="' . esc_url( '/posts/' ) . '" data-type="page" data-id="254">', '</a>' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
